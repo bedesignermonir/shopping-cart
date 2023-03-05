@@ -1,3 +1,4 @@
+
 document.getElementById('mobile-added-button').addEventListener('click', function () {
     const mobileCount = document.getElementById('mobile-count');
     const mobileCountNum = parseInt(mobileCount.value);
@@ -7,7 +8,7 @@ document.getElementById('mobile-added-button').addEventListener('click', functio
 
     const mobilePrice = document.getElementById('mobile-price');
     const mobilePriceNum = parseFloat(mobilePrice.innerText);
-    const doubleprice = mobilePriceNum * mobileCountIncrease;
+    const doubleprice = mobileCountIncrease * 1219;
 
 
     mobilePrice.innerText = doubleprice;
@@ -24,7 +25,7 @@ document.getElementById('mobile-substract-button').addEventListener('click', fun
 
     const mobilePrice = document.getElementById('mobile-price');
     const mobilePriceNum = parseFloat(mobilePrice.innerText);
-    const doubleprice = mobilePriceNum * mobileCountIncrease;
+    const doubleprice = mobileCountIncrease * 1219;
 
 
     mobilePrice.innerText = doubleprice;
