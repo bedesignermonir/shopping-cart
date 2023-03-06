@@ -12,7 +12,10 @@ document.getElementById('mobile-added-button').addEventListener('click', functio
 
 
     mobilePrice.innerText = doubleprice;
-    console.log(doubleprice)
+
+    const subTotal = document.getElementById('sub-total');
+    const newSub = parseInt(subTotal.innerText);
+    subTotal.innerText = newSub + doubleprice;
 
 
 });
@@ -29,7 +32,9 @@ document.getElementById('mobile-substract-button').addEventListener('click', fun
 
 
     mobilePrice.innerText = doubleprice;
-    console.log(doubleprice)
 
+    const subTotal = document.getElementById('sub-total');
+    const newSub = parseInt(subTotal.innerText);
+    subTotal.innerText = (newSub - doubleprice);
 
 })

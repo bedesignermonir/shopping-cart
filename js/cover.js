@@ -8,6 +8,10 @@ document.getElementById('cover-add').addEventListener('click', function () {
     const doubleprice = coverCountIncrease * 59;
 
     coverPrice.innerText = doubleprice;
+
+    const subTotal = document.getElementById('sub-total');
+    const newSub = parseInt(subTotal.innerText);
+    subTotal.innerText = newSub + doubleprice;
 });
 document.getElementById('cover-minus').addEventListener('click', function () {
     const coverCount = document.getElementById('cover-number');
