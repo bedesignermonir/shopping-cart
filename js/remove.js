@@ -7,3 +7,6 @@ document.getElementById('phone-cover-remove-button').addEventListener('click', f
     const displayNone = document.getElementById('phone-cover');
     displayNone.style.display = 'none';
 })
+
+
+
